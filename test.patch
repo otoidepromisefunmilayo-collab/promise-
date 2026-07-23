@@ -1,0 +1,15 @@
+--- a/test.sh
++++ b/test.sh
+@@ -1,6 +1,12 @@
+ #!/bin/sh
+ set -eu
+ 
++# Test patch for promise-
++# This patch adds additional validation checks
++
++TEST_VERSION="1.0"
++echo "Test Patch Version: ${TEST_VERSION}"
++
+ echo "Running repo-local test patch: test.sh"
+ 
+ # This test script is intentionally small and safe to run locally.
